@@ -30,6 +30,7 @@
         {
             this.butnClickMe = new System.Windows.Forms.Button();
             this.butnThatIsBetter = new System.Windows.Forms.Button();
+            this.butnTheCoolest = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // butnClickMe
@@ -52,14 +53,25 @@
             this.butnThatIsBetter.UseVisualStyleBackColor = true;
             this.butnThatIsBetter.Click += new System.EventHandler(this.butnThatIsBetter_Click);
             // 
-            // Form1
+            // butnTheCoolest
+            // 
+            this.butnTheCoolest.Location = new System.Drawing.Point(312, 12);
+            this.butnTheCoolest.Name = "butnTheCoolest";
+            this.butnTheCoolest.Size = new System.Drawing.Size(406, 258);
+            this.butnTheCoolest.TabIndex = 2;
+            this.butnTheCoolest.Text = "The Coolest Button";
+            this.butnTheCoolest.UseVisualStyleBackColor = true;
+            this.butnTheCoolest.Click += new System.EventHandler(this.butnTheCoolest_Click);
+            // 
+            // TestingGitHub
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.butnTheCoolest);
             this.Controls.Add(this.butnThatIsBetter);
             this.Controls.Add(this.butnClickMe);
-            this.Name = "Form1";
+            this.Name = "TestingGitHub";
             this.Text = "Form1";
             this.ResumeLayout(false);
 
@@ -69,6 +81,7 @@
 
         private System.Windows.Forms.Button butnClickMe;
         private System.Windows.Forms.Button butnThatIsBetter;
+        private System.Windows.Forms.Button butnTheCoolest;
     }
 }
 

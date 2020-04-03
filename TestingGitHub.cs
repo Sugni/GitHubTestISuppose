@@ -29,5 +29,13 @@ namespace GitHubTestISuppose
         {
             butnThatIsBetter.BackColor = Color.FromArgb(rand.Next(0, 255), rand.Next(0, 255), rand.Next(0, 255));
         }
+
+        private void butnTheCoolest_Click(object sender, EventArgs e)
+        {
+            butnTheCoolest.Top = rand.Next(0, 300);
+            butnTheCoolest.Left = rand.Next(0, 300);
+            butnTheCoolest.BringToFront();
+            butnTheCoolest.BackColor = Color.FromArgb(rand.Next(0, 255), rand.Next(0, 255), rand.Next(0, 255));
+        }
     }
 }
