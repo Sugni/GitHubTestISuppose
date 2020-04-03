@@ -16,5 +16,10 @@ namespace GitHubTestISuppose
         {
             InitializeComponent();
         }
+
+        private void butnClickMe_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Don't mind me. I'm just a button to test adding changes to projects in github.");
+        }
     }
 }
